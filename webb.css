@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+.main{
+    background-image: url(w.avif);
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+
+}
+.logo{
+    color: rgb(223, 214, 207);
+    font-size: 35px;
+    font-family:'Times New Roman', Times, serif;
+    padding: 10px;
+    float: left;
+    padding-top: 5px;
+    
+}
+.menu{
+   width: 200px; 
+   float: left;
+   height: 100px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 70px;
+    margin-top: 27PX;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    }
+ul li a:hover{
+    color: #ff7200;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 450px;
+}
+.srch{
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+    background: transparent;
+    height: 40px;
+    margin-top: 13px;
+    color: white;
+    border: 1px solid rgb(243, 235, 232);
+    border-right: none;
+    font-size: 16px;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    border: 2px solid rgb(18, 17, 17);
+    background: #fcf6f0;
+    color: rgb(0, 0, 0);
+    margin-top: 15px;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: pointer;
+}
+
+.content{
+    width: 1200px;
+    color: rgb(255, 255, 255);
+    height: auto;
+    position: relative;
+    margin-left: 10px;
+    overflow: hidden;
+}
+.content .en .para{
+    
+    font-size: 50px;
+    padding-bottom: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    float: left;
+}
+.content .para{
+    font-size: 20px;
+}
+.content h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding-left: 5px;
+    margin-top:10%;
+    letter-spacing: 2px;
+}
+.content .en{
+    width: 160px;
+    height: 40px;
+    background: #fcf6f0;
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+.content .en a{
+    text-decoration: none;
+}
+.en:hover{
+    background-color:hsl(27, 74%, 53%) ;
+    box-shadow: 2px 2px 4px 4px #fcf6f0;
+}
+.form{
+    width:250px;
+    height: 380px ;
+    background:transparent ;
+    position: absolute;
+    top: 100px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form h1{
+    width: 220px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #ffffff;
+}
+.form input{
+    width: 250px;
+    height: 35px;
+    background: transparent;
+   
+    color: white;
+    border-bottom: 1.5px solid #f4f3f1;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+
+    
+}
+::placeholder {
+    color: rgb(244, 240, 240);
+    opacity: 1;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+
+.btnn{
+    width: 250px;
+    height: 50px;
+    background: #fcf6f0;
+    border: none;
+    margin-top: 20px;
+    font-size: 18px;
+    border-radius: 25px;
+}
+.btnn:hover{
+    background:hsl(27, 74%, 53%) ;
+    
+    box-shadow: 2px 2px 4px 4px #fcf6f0;
+}
+.btnn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.form .link{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding-top: 20px;
+    text-align: center;
+    color: #f4f3f1;
+}
+.form .link a{
+    text-decoration: none;
+    color: #e65b15;
+}
+
+
+.liw{
+    padding-top: 11px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #f4f3f1;
+    font-size: large;
+}
+.icon{
+    text-decoration: none;
+    color: white;
+
+}
+.icon i{
+    text-decoration: none;
+    color: #f4f3f1;
+    font-size: 24px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease-in-out;
+}
+.icon i:hover{
+    background: #ff7200;
+    box-shadow: 1px 1px 2px 2px #fcf6f0;
+}
